@@ -1,12 +1,23 @@
+aid: basel-iii
 name: Basel III
-description: Basel III is a specialized technology or methodology in the basel domain
-  that addresses specific technical or business requirements. It provides targeted
-  capabilities that help practitioners and organizations solve problems and improve
-  outcomes in their area of focus.
-url: null
+description: >-
+  Basel III is a global regulatory framework developed by the Basel Committee
+  on Banking Supervision to strengthen bank capital requirements, introduce new
+  liquidity standards, and reduce risk in the financial sector.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- Basel III
-created: '2025'
-modified: '2025'
+  - Basel III
+  - Banking Regulation
+  - Capital Requirements
+  - Liquidity
+  - Finance
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/basel-iii/refs/heads/main/apis.yml
+created: '2025-01-01'
+modified: '2026-03-16'
+specificationVersion: '0.19'
 apis: []
-common: []
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
