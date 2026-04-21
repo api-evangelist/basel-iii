@@ -10,6 +10,7 @@ description: >-
   Basel III package (sometimes called Basel IV) addresses output floor and credit risk model
   constraints introduced in 2017.
 type: Index
+x-type: standard
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Banking Regulation
@@ -23,7 +24,7 @@ tags:
 url: >-
   https://raw.githubusercontent.com/api-evangelist/basel-iii/refs/heads/main/apis.yml
 created: '2025-01-01'
-modified: '2026-04-19'
+modified: '2026-04-21'
 specificationVersion: '0.19'
 apis: []
 common:
@@ -39,6 +40,37 @@ common:
   - type: Website
     url: https://www.pra.boe.co.uk/pages/policy/crr
     name: UK PRA - CRR Implementation
+  - type: Website
+    url: https://www.bis.org/bcbs/publ/d424.htm
+    name: Basel III Final Package (Dec 2017)
+  - type: Website
+    url: https://www.bis.org/publ/bcbs189.htm
+    name: Basel III Framework Document (Jun 2011)
+  - type: Website
+    url: https://www.bis.org/publ/bcbs238.htm
+    name: Liquidity Coverage Ratio (Jan 2013)
+  - type: Website
+    url: https://www.bis.org/publ/bcbs295.htm
+    name: Net Stable Funding Ratio (Oct 2014)
+  - type: Vocabulary
+    url: vocabulary/basel-iii-vocabulary.yaml
+    name: Basel III Vocabulary
+  - type: JSON-LD
+    url: json-ld/basel-iii-context.jsonld
+    name: Basel III JSON-LD Context
+  - name: Governance
+    type: Governance
+    data:
+      - name: Governing Body
+        description: Basel Committee on Banking Supervision (BCBS) at the Bank for International Settlements (BIS).
+      - name: Oversight
+        description: Group of Central Bank Governors and Heads of Supervision (GHOS) endorses all BCBS reforms.
+      - name: Implementation
+        description: National regulators implement Basel standards through domestic legislation; EU via CRD/CRR, US via Federal Reserve rules.
+      - name: Transitional Period
+        description: Basel III final package (Basel IV) transitions run from 2023 to full implementation by January 2028.
+      - name: Membership
+        description: 45 member institutions (central banks and bank supervisory authorities) from 28 jurisdictions.
   - name: Key Standards
     type: Features
     data:

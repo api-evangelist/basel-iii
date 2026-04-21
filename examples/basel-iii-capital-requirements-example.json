@@ -1,0 +1,42 @@
+{
+  "@context": "../json-ld/basel-iii-context.jsonld",
+  "@type": "BaselIII",
+  "specificationVersion": "Basel III Final Package (December 2017)",
+  "publicationDate": "2017-12-07",
+  "governingBody": {
+    "@type": "schema:Organization",
+    "schema:name": "Basel Committee on Banking Supervision",
+    "schema:url": "https://www.bis.org/bcbs/"
+  },
+  "implementationDeadline": "2028-01-01",
+  "minimumCET1Ratio": 4.5,
+  "minimumTier1Ratio": 6.0,
+  "minimumTotalCapitalRatio": 8.0,
+  "capitalConservationBuffer": 2.5,
+  "minimumLCR": 100.0,
+  "minimumNSFR": 100.0,
+  "minimumLeverageRatio": 3.0,
+  "outputFloor": 72.5,
+  "keyDocuments": [
+    {
+      "title": "Basel III: A global regulatory framework for more resilient banks",
+      "url": "https://www.bis.org/publ/bcbs189.htm",
+      "publicationDate": "2011-06-01"
+    },
+    {
+      "title": "Liquidity Coverage Ratio",
+      "url": "https://www.bis.org/publ/bcbs238.htm",
+      "publicationDate": "2013-01-01"
+    },
+    {
+      "title": "Net Stable Funding Ratio",
+      "url": "https://www.bis.org/publ/bcbs295.htm",
+      "publicationDate": "2014-10-01"
+    },
+    {
+      "title": "Basel III: Finalising post-crisis reforms",
+      "url": "https://www.bis.org/bcbs/publ/d424.htm",
+      "publicationDate": "2017-12-07"
+    }
+  ]
+}

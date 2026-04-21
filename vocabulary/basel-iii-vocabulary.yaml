@@ -1,0 +1,83 @@
+vocabulary:
+  name: Basel III Vocabulary
+  description: >-
+    Authoritative definitions for terms used in the Basel III regulatory framework
+    as defined by the Basel Committee on Banking Supervision (BCBS).
+  terms:
+    - term: Basel III
+      definition: >-
+        The comprehensive global regulatory framework developed by BCBS in response to
+        the 2007-2009 financial crisis, strengthening capital requirements, introducing
+        liquidity standards, and adding a leverage ratio backstop.
+    - term: CET1
+      definition: >-
+        Common Equity Tier 1 — the highest quality regulatory capital, comprising
+        ordinary shares fully paid up, share premium, retained earnings, and other
+        comprehensive income, minus regulatory deductions.
+    - term: AT1
+      definition: >-
+        Additional Tier 1 — capital instruments that are perpetual, fully discretionary
+        as to dividends/coupons, and contain loss absorption features such as write-down
+        or conversion to equity at the point of non-viability.
+    - term: Tier 2
+      definition: >-
+        Supplementary capital instruments including subordinated debt with a minimum
+        five-year maturity and general loan loss provisions meeting regulatory criteria.
+    - term: Capital Conservation Buffer
+      definition: >-
+        A 2.5% CET1 buffer above the minimum requirement that banks must maintain,
+        with restrictions on distributions when the buffer is drawn down.
+    - term: Countercyclical Capital Buffer
+      definition: >-
+        A variable CET1 buffer (0–2.5%) set by national authorities to build up
+        capital in periods of excess credit growth and release it during downturns.
+    - term: G-SIB Surcharge
+      definition: >-
+        An additional CET1 capital buffer (1–3.5%) for Global Systemically Important
+        Banks, calibrated based on the bank's systemic importance score.
+    - term: HQLA
+      definition: >-
+        High-Quality Liquid Assets — assets that can be easily and quickly converted
+        to cash without significant loss of value during a liquidity stress scenario.
+    - term: LCR
+      definition: >-
+        Liquidity Coverage Ratio — requires banks to hold HQLA equivalent to at least
+        100% of projected net cash outflows over a 30-day stress period.
+    - term: NSFR
+      definition: >-
+        Net Stable Funding Ratio — requires available stable funding to exceed required
+        stable funding over a one-year horizon, targeting structural funding resilience.
+    - term: Leverage Ratio
+      definition: >-
+        A non-risk-based capital measure requiring Tier 1 capital to be at least 3%
+        of total exposures (on and off-balance-sheet), acting as a backstop to risk-based ratios.
+    - term: Output Floor
+      definition: >-
+        A Basel IV constraint requiring that RWA calculated using internal models (IRB,
+        IMA) be no less than 72.5% of the RWA that would result from applying standardized approaches.
+    - term: FRTB
+      definition: >-
+        Fundamental Review of the Trading Book — the revised market risk capital framework
+        with clearer trading/banking book boundary, sensitivities-based method (SBM),
+        and revised internal models approach (IMA) with P&L attribution tests.
+    - term: SA-CCR
+      definition: >-
+        Standardized Approach for Counterparty Credit Risk — the replacement for CEM and SM,
+        used to calculate EAD for OTC derivatives, exchange-traded derivatives, and SFTs.
+    - term: CRD IV/V
+      definition: >-
+        Capital Requirements Directive IV and V — EU legislative instruments transposing
+        Basel III and Basel IV standards into European banking law.
+    - term: CRR/CRR2
+      definition: >-
+        Capital Requirements Regulation — directly applicable EU regulation setting
+        quantitative prudential requirements, updated by CRR2 to include NSFR, leverage ratio,
+        and FRTB elements.
+    - term: TLAC
+      definition: >-
+        Total Loss-Absorbing Capacity — the minimum requirement for G-SIBs to hold
+        sufficient capital and debt that can absorb losses in resolution without taxpayer support.
+    - term: MREL
+      definition: >-
+        Minimum Requirement for own funds and Eligible Liabilities — the EU equivalent
+        of TLAC for all banks subject to resolution planning under the BRRD.

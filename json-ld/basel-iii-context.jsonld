@@ -1,0 +1,68 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "bcbs": "https://www.bis.org/bcbs/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "BaselIII": {
+      "@id": "bcbs:BaselIII",
+      "@type": "@id"
+    },
+    "RegulatoryCapital": {
+      "@id": "bcbs:RegulatoryCapital",
+      "@type": "@id"
+    },
+    "specificationVersion": {
+      "@id": "schema:version",
+      "@type": "xsd:string"
+    },
+    "publicationDate": {
+      "@id": "schema:datePublished",
+      "@type": "xsd:date"
+    },
+    "governingBody": {
+      "@id": "schema:governingBoard",
+      "@type": "@id"
+    },
+    "implementationDeadline": {
+      "@id": "bcbs:implementationDeadline",
+      "@type": "xsd:date"
+    },
+    "minimumCET1Ratio": {
+      "@id": "bcbs:minimumCET1Ratio",
+      "@type": "xsd:decimal"
+    },
+    "minimumTier1Ratio": {
+      "@id": "bcbs:minimumTier1Ratio",
+      "@type": "xsd:decimal"
+    },
+    "minimumTotalCapitalRatio": {
+      "@id": "bcbs:minimumTotalCapitalRatio",
+      "@type": "xsd:decimal"
+    },
+    "capitalConservationBuffer": {
+      "@id": "bcbs:capitalConservationBuffer",
+      "@type": "xsd:decimal"
+    },
+    "minimumLCR": {
+      "@id": "bcbs:minimumLCR",
+      "@type": "xsd:decimal"
+    },
+    "minimumNSFR": {
+      "@id": "bcbs:minimumNSFR",
+      "@type": "xsd:decimal"
+    },
+    "minimumLeverageRatio": {
+      "@id": "bcbs:minimumLeverageRatio",
+      "@type": "xsd:decimal"
+    },
+    "outputFloor": {
+      "@id": "bcbs:outputFloor",
+      "@type": "xsd:decimal"
+    },
+    "jurisdiction": {
+      "@id": "schema:jurisdiction",
+      "@type": "xsd:string"
+    }
+  }
+}
