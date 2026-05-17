@@ -10,7 +10,7 @@ description: >-
   Basel III package (sometimes called Basel IV) addresses output floor and credit risk model
   constraints introduced in 2017.
 type: Index
-x-type: standard
+kind: standard
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Banking Regulation
@@ -55,7 +55,7 @@ common:
   - type: Vocabulary
     url: vocabulary/basel-iii-vocabulary.yaml
     name: Basel III Vocabulary
-  - type: JSON-LD
+  - type: JSONLD
     url: json-ld/basel-iii-context.jsonld
     name: Basel III JSON-LD Context
   - name: Governance
