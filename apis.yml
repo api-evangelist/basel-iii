@@ -28,6 +28,8 @@ modified: '2026-04-21'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/basel-iii-domain-security.yml
   - type: Website
     url: https://www.bis.org/bcbs/basel3.htm
     name: Basel III Framework (BIS)
