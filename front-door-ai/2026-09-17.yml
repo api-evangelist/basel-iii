@@ -1,0 +1,32 @@
+# Front Door AI Index — basel-iii — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: basel-iii
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.bis.org
+  final_host: www.bis.org
+  ownership: shared
+  owner: bis
+  shares_host_with:
+  - banking-regulation
+  - basel-compliance
+  - bis
+  inherited_from: null
+  verdict: scored
+  score: null
+  host_score: 8
+  density: null
+  words: 2287
+  tiers:
+    agentic: 0
+    core: 8
+    model: 0
+  ambiguous: 3
+  top_terms:
+    AI: 5
+    artificial intelligence: 2
+    intelligence: 2
+    LLMs: 1
+    agent: 1
