@@ -1,4 +1,4 @@
-# Basel III
+# basel-iii
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,56 +64,22 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Basel III is a comprehensive global regulatory framework developed by the Basel Committee on Banking Supervision (BCBS) in response to the 2007-2009 financial crisis. It strengthens bank capital requirements by requiring higher quality and quantity of capital, introduces new liquidity standards (LCR and NSFR), adds a leverage ratio backstop, and includes countercyclical capital buffers and G-SIB surcharges. The final Basel III package (sometimes called Basel IV) addresses output floor and credit risk model constraints introduced in 2017.
+## basel-iii on APIs.io
 
-## Governance
+Everything profiled for basel-iii is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/basel-iii/](https://apis.io/providers/basel-iii/)** — or go straight to one of the APIs or properties below.
 
-| Attribute | Detail |
-|---|---|
-| Governing Body | Basel Committee on Banking Supervision (BCBS) |
-| Oversight | Group of Central Bank Governors and Heads of Supervision (GHOS) |
-| Secretariat | Bank for International Settlements (BIS), Basel, Switzerland |
-| Membership | 45 institutions from 28 jurisdictions |
-| Implementation Deadline | January 1, 2028 (Basel IV output floor) |
+## API Evangelist rating
 
-## Key Specifications
+Not yet rated. See [apis.io/providers/basel-iii/](https://apis.io/providers/basel-iii/).
 
-| Standard | Minimum | Description |
-|---|---|---|
-| CET1 Capital Ratio | 4.5% | Highest quality capital over risk-weighted assets |
-| Tier 1 Capital Ratio | 6.0% | CET1 plus AT1 capital |
-| Total Capital Ratio | 8.0% | Tier 1 plus Tier 2 capital |
-| Capital Conservation Buffer | 2.5% CET1 | Buffer above minimums to absorb losses |
-| Leverage Ratio | 3.0% | Tier 1 capital over total exposures |
-| LCR | 100% | 30-day liquidity coverage |
-| NSFR | 100% | 1-year stable funding ratio |
-| Output Floor | 72.5% | Minimum ratio of IRB to SA RWA |
+## How this profile is made
 
-## Key Documents
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-- [Basel III Framework (BIS)](https://www.bis.org/bcbs/basel3.htm)
-- [Basel III Final Package - December 2017](https://www.bis.org/bcbs/publ/d424.htm)
-- [Liquidity Coverage Ratio - January 2013](https://www.bis.org/publ/bcbs238.htm)
-- [Net Stable Funding Ratio - October 2014](https://www.bis.org/publ/bcbs295.htm)
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for basel-iii: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-## National Implementation
+## Open an issue
 
-- [EU — CRD IV/V and CRR/CRR2](https://www.eba.europa.eu/regulation-and-policy/own-funds-and-eligible-liabilities)
-- [US — Federal Reserve Basel Rules](https://www.federalreserve.gov/supervisionreg/Basel.htm)
-- [UK — PRA CRR Implementation](https://www.pra.boe.co.uk/pages/policy/crr)
-
-## Vocabulary
-
-See [vocabulary/basel-iii-vocabulary.yaml](vocabulary/basel-iii-vocabulary.yaml) for authoritative definitions of Basel III terms.
-
-## JSON-LD Context
-
-See [json-ld/basel-iii-context.jsonld](json-ld/basel-iii-context.jsonld) for linked data context mapping Basel III concepts.
-
-## Examples
-
-See [examples/basel-iii-capital-requirements-example.json](examples/basel-iii-capital-requirements-example.json) for a structured representation of Basel III capital requirements.
-
-## Maintainers
-
-- Kin Lane (kin@apievangelist.com)
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/basel-iii/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
